@@ -21,9 +21,12 @@
 see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
 for more options.
 */
-
-#define EE_HANDS
+#define ENCODER_DIRECTION_FLIP
+// #define EE_HANDS
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define TRI_LAYER_LOWER_LAYER 2
+#define TRI_LAYER_UPPER_LAYER 3
+#define TRI_LAYER_ADJUST_LAYER 4
 
 //Add RGB underglow
 // #define RGB_DI_PIN D3
