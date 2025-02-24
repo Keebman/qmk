@@ -23,6 +23,7 @@ for more options.
 */
 #define ENCODER_DIRECTION_FLIP
 // #define EE_HANDS
+#define SPLIT_USB_DETECT
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
 #define TRI_LAYER_LOWER_LAYER 2
 #define TRI_LAYER_UPPER_LAYER 3
